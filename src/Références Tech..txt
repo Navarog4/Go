@@ -1,0 +1,52 @@
+Format des images : PNG
+
+Taille de la fiche 'Regles' : 900*1013
+
+Taille de la fiche 'Accueil' : 900*1013
+	Taille du '+' : 40*40
+	Positionnement : 442*323 à 478*359
+
+	Taille du '-' : 36*36
+	Positionnement : 272*323 à 308*359
+
+	Taille du premier nombre : 52*36 (place disponible)
+	Positionnement : 311*323 à 363*359
+
+	Taille du second nombre : 52*36 (place disponible)
+	Positionnement : 379*323 à 431*359
+
+	Taille du 'Joueur contre Joueur' : 40*28
+	Positionnement : 192*400 à 232*428
+
+	Taille du 'Joueur contre IA' : 40*28
+	Positionnement : 192*436 à 232*464
+
+	Taille du "nom joueur 1" : 482*43
+	Positionnement : 159*560 à 641*603
+
+	Taille du "nom joueur 2" : 482*43
+	Positionnement : 159*737 à 641*780
+
+	Taille du "GO !" : 894*95
+	Positionnement : 3*904 à 897*999
+
+	Taille du "Amibance sonore" : 100*100
+	Positionnement : 746*44 à 846*144
+
+	Taille du "Musique" : 100*100
+	Positionnement : 54*44 à 154*144
+
+
+Taille des cases du Goban : 36*36
+
+Taille des pierres : 34*34
+
+Coordonnées du score joueur 1 (Noir) : 265 * 780
+Coordonnées du score joueur 2 (Blanc) : 670 * 780
+	
+
+Pour le serveur de go :
+On doit rentrer : les noms des joueurs, la dimension du jeu de Go
+
+Envoi du packet : 
+<suite des valeurs du tableau de jeu><nbr de caractères du score N><score N><nbr de caractères du score B><score B><passe du Noir><passe du Blanc>
